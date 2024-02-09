@@ -2,7 +2,14 @@ name: title
 description: >-
   A widget for visualizing a customizable title with glass effect, gradient,
   rounded corners or/and free shape.
-publish_to: none
+repository: https://github.com/signmotion/title
+topics:
+  - title
+  - glass
+  - effects
+  - clip
+  - text
+
 # Format:
 #   version: major.minor.patch
 # You can calculate the number version code by this formula:
