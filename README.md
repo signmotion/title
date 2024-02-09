@@ -1,6 +1,6 @@
 # Title Widget
 
-![Cover - Title Widget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/cover.webp)
+![Cover - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/cover.webp)
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signmotion/title_widget/master/LICENSE)
 
@@ -8,7 +8,7 @@ A widget for visualizing a customizable title with glass effect, gradient, round
 
 ## Usage
 
-### Title
+### RectGlassTitle
 
 ```dart
 final background = Image.asset('image.webp');
@@ -19,7 +19,7 @@ return Stack(children: [background, title]);
 
 Output:
 
-![Screenshott - Title](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.webp)
+![Screenshott - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.webp)
 
 ## Welcome
 
