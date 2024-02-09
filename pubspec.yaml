@@ -1,4 +1,4 @@
-name: title
+name: title_widget
 description: >-
   A widget for visualizing a customizable title with glass effect, gradient,
   rounded corners or/and free shape.
@@ -8,7 +8,7 @@ topics:
   - glass
   - effects
   - clip
-  - text
+  - widget
 
 # Format:
 #   version: major.minor.patch

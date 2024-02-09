@@ -1,8 +1,8 @@
 # Title Widget
 
-![Cover - Title Widget](https://raw.githubusercontent.com/signmotion/title/master/images/cover.webp)
+![Cover - Title Widget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/cover.webp)
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signmotion/title/master/LICENSE)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signmotion/title_widget/master/LICENSE)
 
 A widget for visualizing a customizable title with glass effect, gradient, rounded corners or/and free shape.
 
@@ -19,12 +19,12 @@ return Stack(children: [background, title]);
 
 Output:
 
-![Screenshott - Title](https://raw.githubusercontent.com/signmotion/title/master/images/screenshots/1.webp)
+![Screenshott - Title](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.webp)
 
 ## Welcome
 
 This package is open-source, stable and well-tested. Development happens on
-[GitHub](https://github.com/signmotion/title). Feel free to report issues
+[GitHub](https://github.com/signmotion/title_widget). Feel free to report issues
 or create a pull-request there.
 
 General questions are best asked on

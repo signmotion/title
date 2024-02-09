@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 abstract class Title<
     C extends Clipper,

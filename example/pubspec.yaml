@@ -1,6 +1,6 @@
 name: example
 description: Example for package Title.
-homepage: https://github.com/signmotion/title
+homepage: https://github.com/signmotion/title_widget
 publish_to: none
 
 # Format:
@@ -16,8 +16,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  title:
-    path: ../../title
+  title_widget:
+    path: ../../title_widget
 
 dev_dependencies:
   flutter_lints: ^3.0.1

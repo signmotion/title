@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 class NothingClipper extends Clipper<ClipperOptions> {
   const NothingClipper(super.options);

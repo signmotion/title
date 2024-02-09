@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 class RectGlassTitle extends Title<RectClipper, RectClipperOptions,
     RectClipperBuilder, GlassEffect, GlassEffectOptions, GlassEffectBuilder> {

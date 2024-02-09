@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 typedef ClipperBuilder<C extends Clipper, O extends ClipperOptions> = C
     Function(O options);

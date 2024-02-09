@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:title/title.dart';
+import 'package:title_widget/title_widget.dart';
 
 void main() => runApp(const App());
 

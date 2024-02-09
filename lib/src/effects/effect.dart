@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 typedef EffectBuilder<E extends Effect, O extends EffectOptions> = E Function(
     O options);

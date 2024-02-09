@@ -1,4 +1,4 @@
-part of '../../title.dart';
+part of '../../title_widget.dart';
 
 extension ColorExt on ui.Color {
   ui.Color brighten([int percent = 12]) {
