@@ -2,6 +2,7 @@ part of '../../title_widget.dart';
 
 typedef RectClipperBuilder = ClipperBuilder<RectClipper, RectClipperOptions>;
 
+/// Title with clipping by rectangle.
 class RectClipper extends Clipper<RectClipperOptions> {
   const RectClipper(super.options);
 

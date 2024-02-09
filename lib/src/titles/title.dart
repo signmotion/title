@@ -1,5 +1,6 @@
 part of '../../title_widget.dart';
 
+/// Base class for title.
 abstract class Title<
     C extends Clipper,
     CO extends ClipperOptions,

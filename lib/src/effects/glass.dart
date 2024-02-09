@@ -2,6 +2,7 @@ part of '../../title_widget.dart';
 
 typedef GlassEffectBuilder = EffectBuilder<GlassEffect, GlassEffectOptions>;
 
+/// Title with glass effect.
 class GlassEffect extends Effect<GlassEffectOptions> {
   const GlassEffect(super.options);
 

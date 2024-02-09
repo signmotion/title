@@ -1,5 +1,6 @@
 part of '../../title_widget.dart';
 
+/// The title configuring with glass effect.
 class GlassTitle extends Title<
     Clipper,
     ClipperOptions,

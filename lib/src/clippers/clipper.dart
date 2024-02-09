@@ -3,6 +3,7 @@ part of '../../title_widget.dart';
 typedef ClipperBuilder<C extends Clipper, O extends ClipperOptions> = C
     Function(O options);
 
+/// Base class for own clipper.
 abstract class Clipper<O extends ClipperOptions> {
   const Clipper(this.options);
 
@@ -12,6 +13,7 @@ abstract class Clipper<O extends ClipperOptions> {
   Widget make(Widget w, Title title);
 }
 
+/// Base class for options of clipper.
 class ClipperOptions {
   const ClipperOptions({
     this.width,
@@ -52,6 +54,7 @@ class ClipperOptions {
       );
 }
 
+/// Base widget for own clipper.
 abstract class ClipperView<O extends ClipperOptions> extends StatefulWidget {
   const ClipperView({
     super.key,
@@ -68,6 +71,7 @@ abstract class ClipperView<O extends ClipperOptions> extends StatefulWidget {
   State<ClipperView> createState() => ClipperViewState();
 }
 
+/// Base widget state for widget clipper.
 class ClipperViewState extends State<ClipperView> {
   Color? color;
 

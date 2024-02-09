@@ -1,5 +1,6 @@
 part of '../../title_widget.dart';
 
+/// Title without effect.
 class NothingEffect extends Effect<EffectOptions> {
   const NothingEffect(super.options);
 
