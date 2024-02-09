@@ -19,7 +19,7 @@ return Stack(children: [background, title]);
 
 Output:
 
-![Screenshott - Title](https://raw.githubusercontent.com/signmotion/title/master/images/screenshots/title.webp)
+![Screenshott - Title](https://raw.githubusercontent.com/signmotion/title/master/images/screenshots/1.webp)
 
 ## Welcome
 
