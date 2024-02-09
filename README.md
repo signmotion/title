@@ -33,3 +33,4 @@ General questions are best asked on
 ## TODO
 
 - How to construct own `Clipper`s and `Effect`s.
+- Add an option for fully customizable gradient.
