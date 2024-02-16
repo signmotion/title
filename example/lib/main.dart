@@ -12,6 +12,7 @@ class App extends StatelessWidget {
   Widget get title => const RectGlassTitle(
         'Forgotten Dreams',
         effectOptions: GlassEffectOptions(blur: (12, 2)),
+        textColor: Colors.white,
       );
 
   @override

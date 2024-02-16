@@ -18,6 +18,8 @@ abstract class Title<
     this.clipperOptions,
     this.effectBuilder,
     this.effectOptions,
+    this.textStyle,
+    this.textColor,
   });
 
   final String text;
@@ -39,6 +41,13 @@ abstract class Title<
       ? const NothingEffect(EffectOptions())
       : effectBuilder!(effectOptions!) as Effect;
 
+  /// A theme style with [Theme.of(context).textTheme.headlineLarge]
+  /// will be used if [textStyle] is undefined.
+  final TextStyle? textStyle;
+
+  /// A theme color will be used if [textColor] is undefined.
+  final Color? textColor;
+
   @override
   Widget build(BuildContext context) =>
       _clipTransformer(_effectTransformer(coreBuild(context), this), this);
@@ -51,6 +60,14 @@ abstract class Title<
 
   Widget coreBuild(BuildContext context) => Padding(
         padding: padding,
-        child: Text(text, style: Theme.of(context).textTheme.headlineLarge),
+        child: Text(
+          text,
+          textAlign: TextAlign.center,
+          style: textStyle?.copyWith(color: textColor) ??
+              Theme.of(context)
+                  .textTheme
+                  .headlineLarge
+                  ?.copyWith(color: textColor),
+        ),
       );
 }

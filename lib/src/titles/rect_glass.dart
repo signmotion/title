@@ -11,6 +11,8 @@ class RectGlassTitle extends Title<RectClipper, RectClipperOptions,
     super.padding,
     super.clipperOptions = const RectClipperOptions(),
     super.effectOptions = const GlassEffectOptions(),
+    super.textStyle,
+    super.textColor,
   }) : super(
           clipperBuilder: RectClipper.new,
           effectBuilder: GlassEffect.new,
