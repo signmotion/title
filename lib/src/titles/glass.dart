@@ -15,5 +15,7 @@ class GlassTitle extends Title<
     super.height,
     super.padding,
     super.effectOptions = const GlassEffectOptions(),
+    super.textStyle,
+    super.textColor,
   }) : super(effectBuilder: GlassEffect.new);
 }
