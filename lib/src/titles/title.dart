@@ -11,6 +11,7 @@ abstract class Title<
   const Title(
     this.text, {
     super.key,
+    this.textScaler,
     this.width,
     this.height,
     this.padding = const EdgeInsets.all(12),
@@ -23,6 +24,8 @@ abstract class Title<
   });
 
   final String text;
+
+  final TextScaler? textScaler;
 
   final num? width;
   final num? height;
@@ -62,6 +65,7 @@ abstract class Title<
         padding: padding,
         child: Text(
           text,
+          textScaler: textScaler,
           textAlign: TextAlign.center,
           style: textStyle?.copyWith(color: textColor) ??
               Theme.of(context)

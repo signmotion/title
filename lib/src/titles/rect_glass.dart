@@ -6,6 +6,7 @@ class RectGlassTitle extends Title<RectClipper, RectClipperOptions,
   const RectGlassTitle(
     super.text, {
     super.key,
+    super.textScaler,
     super.width,
     super.height,
     super.padding,

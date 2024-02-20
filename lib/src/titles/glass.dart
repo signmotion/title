@@ -11,6 +11,7 @@ class GlassTitle extends Title<
   const GlassTitle(
     super.text, {
     super.key,
+    super.textScaler,
     super.width,
     super.height,
     super.padding,
