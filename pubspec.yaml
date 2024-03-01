@@ -2,7 +2,7 @@ name: title_widget
 description: >-
   A widget for visualizing a customizable title with glass effect, gradient,
   rounded corners or/and free shape.
-repository: https://github.com/signmotion/title
+repository: https://github.com/signmotion/title_widget
 topics:
   - title
   - glass
