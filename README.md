@@ -13,12 +13,10 @@ Feel free to use it in your projects.
 
 ```dart
 final background = Image.asset('image.webp');
-const title = RectGlassTitle('Forgotten Dreams');
+const title = RectGlassTitle(text: 'Forgotten Dreams');
 
 return Stack(children: [background, title]);
 ```
-
-Output:
 
 ![Screenshott - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.webp)
 

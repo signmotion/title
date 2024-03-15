@@ -9,10 +9,18 @@ class App extends StatelessWidget {
   Widget get background =>
       RectClipperView(child: Image.asset('assets/images/1.webp'));
 
-  Widget get title => const RectGlassTitle(
-        'Forgotten Dreams',
-        effectOptions: GlassEffectOptions(blur: (12, 2)),
+  Widget get title => RectGlassTitle(
+        text: 'Forgotten Dreams',
+        effectOptions: const GlassEffectOptions(blur: (12, 2)),
         textColor: Colors.white,
+      );
+
+  Widget get icon => Padding(
+        padding: const EdgeInsets.only(top: 240),
+        child: RectGlassTitle(
+          widget: const Icon(Icons.hiking, color: Colors.white),
+          effectOptions: const GlassEffectOptions(blur: (12, 2)),
+        ),
       );
 
   @override
@@ -22,7 +30,7 @@ class App extends StatelessWidget {
           body: Center(
             child: Stack(
               alignment: Alignment.center,
-              children: [background, title],
+              children: [background, icon, title],
             ),
           ),
         ),

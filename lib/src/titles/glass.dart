@@ -8,15 +8,17 @@ class GlassTitle extends Title<
     GlassEffect,
     GlassEffectOptions,
     GlassEffectBuilder> {
-  const GlassTitle(
-    super.text, {
+  const GlassTitle({
     super.key,
+    super.text,
+    super.widget,
     super.textScaler,
     super.width,
     super.height,
     super.padding,
+    super.effectBuilder = GlassEffect.new,
     super.effectOptions = const GlassEffectOptions(),
     super.textStyle,
     super.textColor,
-  }) : super(effectBuilder: GlassEffect.new);
+  });
 }

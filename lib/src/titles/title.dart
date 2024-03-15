@@ -8,9 +8,11 @@ abstract class Title<
     E extends Effect,
     EO extends EffectOptions,
     EB extends EffectBuilder<E, EO>> extends StatelessWidget {
-  const Title(
-    this.text, {
+  /// Should be defined either [text] or [widget].
+  const Title({
     super.key,
+    this.text,
+    this.widget,
     this.textScaler,
     this.width,
     this.height,
@@ -21,9 +23,23 @@ abstract class Title<
     this.effectOptions,
     this.textStyle,
     this.textColor,
-  });
+  })  : assert(text != null || widget != null,
+            'Expected either `text` or `widget`.'),
+        assert(
+            (text != null && widget == null) ||
+                (text == null && widget != null),
+            'Should be either `text` or `widget`.'),
+        assert(
+            (text != null || widget != null) ||
+                (text == null &&
+                    textScaler == null &&
+                    textStyle == null &&
+                    textColor == null),
+            'When `text` is not defined then `textScaler`, `textStyle`'
+            ' and `textColor` have no effect.');
 
-  final String text;
+  final String? text;
+  final Widget? widget;
 
   final TextScaler? textScaler;
 
@@ -63,15 +79,17 @@ abstract class Title<
 
   Widget coreBuild(BuildContext context) => Padding(
         padding: padding,
-        child: Text(
-          text,
-          textScaler: textScaler,
-          textAlign: TextAlign.center,
-          style: textStyle?.copyWith(color: textColor) ??
-              Theme.of(context)
-                  .textTheme
-                  .headlineLarge
-                  ?.copyWith(color: textColor),
-        ),
+        child: widget ?? childText(context),
+      );
+
+  Text childText(BuildContext context) => Text(
+        text!,
+        textScaler: textScaler,
+        textAlign: TextAlign.center,
+        style: textStyle?.copyWith(color: textColor) ??
+            Theme.of(context)
+                .textTheme
+                .headlineLarge
+                ?.copyWith(color: textColor),
       );
 }
