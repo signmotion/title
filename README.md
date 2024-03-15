@@ -27,7 +27,7 @@ final title = RectGlassTitle(widget: icon);
 return Stack(children: [background, title]);
 ```
 
-![Screenshott - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.webp)
+![Screenshott - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.gif)
 
 ## Welcome
 
