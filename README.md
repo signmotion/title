@@ -9,11 +9,20 @@ Feel free to use it in your projects.
 
 ## Usage
 
-### RectGlassTitle
+### With Text
 
 ```dart
 final background = Image.asset('image.webp');
 const title = RectGlassTitle(text: 'Forgotten Dreams');
+
+return Stack(children: [background, title]);
+```
+
+### With Widget (Icon)
+
+```dart
+const icon = Icon(Icons.hiking, color: Colors.white);
+final title = RectGlassTitle(widget: icon);
 
 return Stack(children: [background, title]);
 ```
