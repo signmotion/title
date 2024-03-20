@@ -4,7 +4,7 @@
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Pub Package](https://img.shields.io/badge/doc-title_widget-blue)](https://pub.dartlang.org/packages/title_widget)
-[![Build Status](https://github.com/signmotion/title_widget/actions/workflows/dart-ci.yml/badge.svg)](https://github.com/signmotion/title_widget/actions/workflows/dart-ci.yml)
+[![Build Status](https://github.com/signmotion/title_widget/actions/workflows/dart-ci.yml/badge.svg)](https://github.com/signmotion/title_widget/actions/workflows/flutter-ci.yml)
 [![Publisher](https://img.shields.io/pub/publisher/title_widget)](https://pub.dev/publishers/syrokomskyi.com)
 
 A widget for visualizing a customizable title with glass effect, gradient, rounded corners or/and free shape.
