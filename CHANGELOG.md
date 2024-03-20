@@ -3,6 +3,14 @@
 All notable changes to the project `TitleWidget` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.1
+
+- Added GitHub CI.
+- Included templates for issues and pull requests.
+- Provided a screenshot.
+- Added badges to `README`.
+- Fixed a link into `README`.
+
 ## 0.4.0
 
 - Enhanced `Title` with `Widget`.
