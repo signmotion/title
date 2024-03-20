@@ -2,10 +2,13 @@
 
 ![Cover - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/cover.webp)
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/signmotion/title_widget/master/LICENSE)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Pub Package](https://img.shields.io/badge/doc-title_widget-blue)](https://pub.dartlang.org/packages/title_widget)
+[![Build Status](https://github.com/signmotion/title_widget/actions/workflows/dart-ci.yml/badge.svg)](https://github.com/signmotion/title_widget/actions/workflows/dart-ci.yml)
+[![Publisher](https://img.shields.io/pub/publisher/title_widget)](https://pub.dev/publishers/syrokomskyi.com)
 
 A widget for visualizing a customizable title with glass effect, gradient, rounded corners or/and free shape.
-Feel free to use it in your projects.
+Feel free to use it in your awesome projects.
 
 ## Usage
 
@@ -27,7 +30,7 @@ final title = RectGlassTitle(widget: icon);
 return Stack(children: [background, title]);
 ```
 
-![Screenshott - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.gif)
+![Screenshot - TitleWidget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.gif)
 
 ## Welcome
 
@@ -38,7 +41,7 @@ This package is open-source, stable and well-tested. Development happens on
 or create a pull-request there.
 
 General questions are best asked on
-[StackOverflow](https://stackoverflow.com/search?q=%5Btitle%5D+flutter).
+[StackOverflow](https://stackoverflow.com/search?q=title_widget+flutter).
 
 ## TODO
 
