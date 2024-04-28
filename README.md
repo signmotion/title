@@ -62,7 +62,7 @@ If this is your first contribution, I'll leave you with some of the best links I
 - [Guide to Making a First Contribution](https://github.com/firstcontributions/first-contributions). You will find the guide in your native language.
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute). Longread for deep diving for first-timers and for veterans.
 - [Summer Guide from Google](https://youtu.be/qGTQ7dEZXZc).
-- [CodeTriangle](https://codetriage.com) Free community tools for contributing to Open Source projects.
+- [CodeTriangle](https://codetriage.com). Free community tools for contributing to Open Source projects.
 
 The package **TitleWidget** is open-source, stable and well-tested. Development happens on
 [GitHub](https://github.com/signmotion/title_widget). Feel free to report issues
