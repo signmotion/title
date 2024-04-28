@@ -3,6 +3,13 @@
 All notable changes to the project `TitleWidget` will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.3
+
+- Enhanced `README`: added an opening speech in Welcome section, What's New section, shorted sentences, etc.
+- Replaced badges with supported platforms to <https://badgen.net/pub>.
+- Added note to `pubspec.yaml` about version: compatible with <https://semver.org>.
+- Upgraded dependencies.
+
 ## 0.4.2
 
 - Provided a better screenshot representation in `README`.
