@@ -1,31 +1,31 @@
 # Title Widget
 
+![SDK version](https://badgen.net/pub/sdk-version/title_widget?style=for-the-badge)
+![Supported platforms](https://badgen.net/pub/flutter-platform/title_widget?style=for-the-badge)
+![Supported SDKs](https://badgen.net/pub/dart-platform/title_widget?style=for-the-badge)
+
 ![Cover - Title Widget](https://raw.githubusercontent.com/signmotion/title_widget/master/images/cover.webp)
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Pub Package](https://img.shields.io/pub/v/title_widget.svg?logo=dart&logoColor=00b9fc&color=blue)](https://pub.dartlang.org/packages/title_widget)
-[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/title_widget?logo=github&logoColor=white)](https://github.com/signmotion/title_widget)
-[![Publisher](https://img.shields.io/pub/publisher/title_widget)](https://pub.dev/publishers/syrokomskyi.com)
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Pub Package](https://img.shields.io/pub/v/title_widget.svg?logo=dart&logoColor=00b9fc&color=blue&style=for-the-badge)](https://pub.dartlang.org/packages/title_widget)
+[![Code Size](https://img.shields.io/github/languages/code-size/signmotion/title_widget?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/title_widget)
+[![Publisher](https://img.shields.io/pub/publisher/title_widget?style=for-the-badge)](https://pub.dev/publishers/syrokomskyi.com)
 
-![SDK version](https://badgen.net/pub/sdk-version/title_widget)
-![Supported platforms](https://badgen.net/pub/flutter-platform/title_widget)
-![Supported SDKs](https://badgen.net/pub/dart-platform/title_widget)
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/title_widget/flutter-ci.yml?logo=github-actions&logoColor=white)](https://github.com/signmotion/title_widget/actions)
-[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/title_widget?logo=github&logoColor=white)](https://github.com/signmotion/title_widget/pulls)
-[![Issues](https://img.shields.io/github/issues/signmotion/title_widget?logo=github&logoColor=white)](https://github.com/signmotion/title_widget/issues)
-[![Pub Score](https://img.shields.io/pub/points/title_widget?logo=dart&logoColor=00b9fc)](https://pub.dev/packages/title_widget/score)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/signmotion/title_widget/flutter-ci.yml?logo=github-actions&logoColor=white&style=for-the-badge)](https://github.com/signmotion/title_widget/actions)
+[![Pull Requests](https://img.shields.io/github/issues-pr/signmotion/title_widget?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/title_widget/pulls)
+[![Issues](https://img.shields.io/github/issues/signmotion/title_widget?logo=github&logoColor=white&style=for-the-badge)](https://github.com/signmotion/title_widget/issues)
+[![Pub Score](https://img.shields.io/pub/points/title_widget?logo=dart&logoColor=00b9fc&style=for-the-badge)](https://pub.dev/packages/title_widget/score)
 
 A widget for visualizing a customizable title with glass effect, gradient, rounded corners or/and free shape.
 Feel free to use it in your awesome project.
 
-[![CodeFactor](https://codefactor.io/repository/github/signmotion/title_widget/badge)](https://codefactor.io/repository/github/signmotion/title_widget)
+[![CodeFactor](https://codefactor.io/repository/github/signmotion/title_widget/badge?style=for-the-badge)](https://codefactor.io/repository/github/signmotion/title_widget)
 
 Share some ❤️ and star repo to support the project.
 
 _If you write an article about **TitleWidget** or any of [these](https://pub.dev/packages?q=publisher%3Asyrokomskyi.com&sort=updated) packages, let me know and I'll post the URL of the article in the **README**_ 🤝
 
-## 🚀Usage
+## 🚀 Usage
 
 ### With Text (String)
 
@@ -47,11 +47,11 @@ return Stack(children: [background, title]);
 
 [<img src="https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.gif" width="600"/>](https://raw.githubusercontent.com/signmotion/title_widget/master/images/screenshots/1.gif)
 
-## 👁️What's New
+## ✨ What's New
 
 Look at [changelog](https://pub.dev/packages/title_widget/changelog).
 
-## 🙋‍♀️🙋‍♂️Welcome
+## 👋 Welcome
 
 If you encounter any problems, feel free to [open an issue](https://github.com/signmotion/title_widget/issues). If you feel the package is missing a feature, please [raise a ticket](https://github.com/signmotion/title_widget/issues) on Github and I'll look into it. Requests and suggestions are warmly welcome. Danke!
 
@@ -81,7 +81,7 @@ And here is a curated list of how you can help:
 - Report bugs and scenarios that are difficult to implement.
 - Implement new features by making a pull-request.
 
-## 🕧TODO (perhaps)
+## ✅ TODO (perhaps)
 
 Once you start using the **TitleWidget**, it will become easy to choose the functionality to contribute. But if you already get everything you need from this package but have some free time, let me write here what I have planned:
 
