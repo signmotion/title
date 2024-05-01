@@ -6,7 +6,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## 0.4.4
 
 - Changed the style for shields in `README`.
-- Added a link to [Awesome Flutter](<https://github.com/-> Solido/awesome-flutter) in `example/README`.
+- Added a link to [Awesome Flutter](https://github.com/Solido/awesome-flutter) in `example/README`.
 - Stabilized CI for tests.
 - Excluded some folders from the analysis.
 - Updated cover.
